@@ -35,5 +35,5 @@ def get_city_weather(city):
    if temperature is not None and sky_condition is not None:
         return str(temperature) + " degrees and " + sky_condition
    else:
-       return "City not found"
+       return "City not found" 
    
