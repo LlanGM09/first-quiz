@@ -19,3 +19,12 @@ swapper = None
 
 def run_swapper(list_of_tuples):
   return list(map(swapper, list_of_tuples))
+
+def swap_list_of_tuples(list_of_tuples):
+  return run_swapper(list_of_tuples)
+
+# examples of use
+# list_of_tuples= [ ("a", "b"), ("c", "d"), ("e", "f") ]
+
+# result= swap_list_of_tuples(list_of_tuples)
+# print(list_of_tuples)
